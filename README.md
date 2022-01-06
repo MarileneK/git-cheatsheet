@@ -81,7 +81,7 @@ git config --list
 
 - Go inside the project you are working on with:
 ```
-cd nameOfYourDirectory
+_cd_ nameOfYourDirectory
 ```
 cd means _change directory_.
 
@@ -92,8 +92,8 @@ git init
 
 Have a look at your project, a hidden file named _.git_ just appeared.
 If you don't see it, make sure you typed the command in the right directory and make sure hidden files are shown:
-* You are a Mac user? Open your Finder and press simultaneously: **Command + Shift + . (period)**.
-* You are PC user? Type on Google keywords like "Show hidden files Windows/...".
+-> You are a Mac user? Open your Finder and press simultaneously: **Command + Shift + . (period)**.
+-> You are PC user? Type on Google keywords like "Show hidden files Windows/...".
 
 - Link your GitHub repository to your project
     - Go back on the repository you just created on GitHub.
@@ -107,7 +107,7 @@ git remote add origin https://github.com/yourGitHubUsername/nameOfYourRepository
 ```
 git remote
 ```
-and the word "origin" must appear in your termnial because you named the link to your repository "origin" (see the previous previous command).
+and the word "origin" must appear in your terminal because you named the link to your repository "origin" (see the previous previous command).
 
 You are now all set to start using GitHub!
 
@@ -134,7 +134,7 @@ What will happen here? It will make a copy of your project in this new branch. A
 
 What you will do now is "copy" and "paste" your code in the hidden file _.git_.
 There are **ALWAYS** 2 steps that go together :
-- (Step 1) Either "copy" ALL your changes...
+- STEP 1: either "copy" ALL your changes...
 ```
 git add .
 ```
@@ -146,46 +146,48 @@ git add *
 ```
 These 2 commands do the same. We can imagine that it takes a picture of your project as it is.
 
-- (Step 1)... or "copy" only ONE file
+- STEP 1: ... or "copy" only ONE file
     - /!\ Replace only the value _nameOfTheFile_.
 ```
 git add nameOfTheFile
 ```
 
-- (Step 2) "Paste" your changes
+- STEP 2: "paste" your changes
     - /!\ Replace only the value between the double quotes.
 ```
 git commit -m "description of your commit"
 ```
-This command will "paste" the file.s in the hidden file _.git_.
+This command will "paste" the file.s with your work in the hidden file _.git_.
 
 There are some great content on Internet on how to write concise commits but I would say that it should be short and you should describe the main changes that you have done (ex.: "_CSS button formatted_").
 
-Something that I am not used BUT that I SHOULD DO is to commit anytime I am done with a feature.
+Something I didn't know is that you can do many commits the same day and push everything to GitHub at the end of the day. To do so, you will always follow the 2 steps above and type the following command.
 
+- STEP 3: 
 
 
 
 ## Useful commands <a name="useful-commands"></a>
 
 
-- How to remove a GitHub link from my project?
+- a. How to remove a GitHub link from my project?
     - First, type this command to know the name you gave when you made the link with your GitHub repository (generally "origin").
 ```
 git remote
 ```
+
     - Then, type the following command and replace the word "origin" if another word came out after the command above.
 ```
 git remote rm origin
 ```
 
-- How to delete a branch locally (on your computer)?
+- b. How to delete a branch locally (on your computer)?
     - /!\ Replace only the value _nameOfYourBranch_.  
 ```
 git branch -d nameOfYourBranch
 ```
 
-- How to switch from a branch to another?
+- c. How to switch from a branch to another?
     - /!\ Replace only the value _nameOfYourBranch_.  
 ```
 git checkout nameOfYourBranch
