@@ -10,15 +10,16 @@ So I will share with you the very basics of Git and GitHub and will explain you 
 
 
 ## Table of contents
-I. [Description](#desc)
-II. [Main commands](#main-commands)
-    1. [Set up the user information](#title1)
-    2. [Initialize your project](#title2)
-    3. [Start saving your code and your changes](#title3)
-III. [Useful commands](#useful-commands)
+I. [Description](#desc)<br />
+II. [Install Git on your computer](#git)<br />
+III. [Main commands](#main-commands)<br />
+    1. [Set up the user information](#title1)<br />
+    2. [Initialize your project](#title2)<br />
+    3. [Start saving your code and your changes](#title3)<br />
+IV. [Useful commands](#useful-commands)<br />
 
 
-## Description <a name="desc"></a>
+## I. Description <a name="desc"></a>
 To better understand the use of Git & GitHub, let's imagine **2 trees**:
 
 Tree 1  | Tree 2
@@ -38,13 +39,13 @@ GitHub will help you save all your codes, share it with your team mates and make
 You will not only be able to work and collaborate with others but also work on your own solo projects and retrieve the code of any project from any computer. So cool  =) , isn't it?
 
 
-## Install Git on your computer
+## II. Install Git on your computer <a name="git"></a>
 - [ ] Download Git on your computer <https://git-scm.com/downloads>.
 - [ ] Open a terminal (on VS Code or from your computer).
 /!\ You don't need to be in any special directory to write the following commands (1. Set up user information). Thanks to the keyword **global**, the configuration will be applied "globally" in your computer.
 
 
-## Main commands <a name="main-commands"></a>
+## III. Main commands <a name="main-commands"></a>
 
 ### 1. Set up the user information <a name="title1"></a>
 
@@ -167,28 +168,28 @@ Something I didn't know is that you can do many commits the same day and push ev
 
 
 
-## Useful commands <a name="useful-commands"></a>
+## IV. Useful commands <a name="useful-commands"></a>
 
 
-- a. How to remove a GitHub link from my project?
+a. How to remove a GitHub link from my project?
     - First, type this command to know the name you gave when you made the link with your GitHub repository (generally "origin").
 ```
 git remote
 ```
 
     - Then, type the following command and replace the word "origin" if another word came out after the command above.
-    
+
 ```
 git remote rm origin
 ```
 
-- b. How to delete a branch locally (on your computer)?
+b. How to delete a branch locally (on your computer)?
     - /!\ Replace only the value _nameOfYourBranch_.  
 ```
 git branch -d nameOfYourBranch
 ```
 
-- c. How to switch from a branch to another?
+c. How to switch from a branch to another?
     - /!\ Replace only the value _nameOfYourBranch_.  
 ```
 git checkout nameOfYourBranch
