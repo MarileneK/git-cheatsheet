@@ -177,6 +177,7 @@ git remote
 ```
 
     - Then, type the following command and replace the word "origin" if another word came out after the command above.
+    
 ```
 git remote rm origin
 ```
