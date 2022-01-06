@@ -11,14 +11,15 @@ So I will share with you the very basics of Git and GitHub and will explain you 
 <hr>
 
 ## Table of contents
-I. [Description](#desc)<br /><br />
-II. [Install Git on your computer](#git)<br /><br />
-III. [Main commands](#main-commands)<br /><br />
-1. [Set up the user information](#title1)<br />
-2. [Initialize your project](#title2)<br />
-3. [Start saving your code and your changes](#title3)<br />
-3.1. [Working on a branch](#title3.1)<br />
-3.2. [Start saving your work on GitHub](#title3.2)<br /><br />
+I. [Description](#desc)<br />
+II. [Install Git on your computer](#git)<br />
+III. [Main commands](#main-commands)<br />
+  1. [Set up the user information](#title1)<br />
+  2. [Initialize your project](#title2)<br />
+  3. [Start saving your code and your changes](#title3)<br />
+   3.1. [Working on a branch](#title3.1)<br />
+   3.2. [Start saving your work on GitHub](#title3.2)<br />
+
 IV. [VERY Useful commands](#useful-commands)<br />
 
 <hr>
