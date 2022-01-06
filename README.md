@@ -8,6 +8,7 @@ But as soon as I started to understand how GitHub worked, I could see the power 
 So I will share with you the very basics of Git and GitHub and will explain you how to use it. Hope this will be useful!
 (I think it is pretty much the same with GitLab but I am not using it for now.)
 
+<hr>
 
 ## Table of contents
 I. [Description](#desc)<br />
@@ -18,9 +19,7 @@ III. [Main commands](#main-commands)<br />
     3. [Start saving your code and your changes](#title3)<br />
 IV. [Useful commands](#useful-commands)<br />
 
-<br />
 <hr>
-<br />
 
 ## I. Description <a name="desc"></a>
 To better understand the use of Git & GitHub, let's imagine **2 trees**:
@@ -41,20 +40,14 @@ But why _A TREE_ as an analogy? Simply because you can create _A BRANCH_ to work
 GitHub will help you save all your codes, share it with your team mates and make sure everyone is on the same page and has the same code.
 You will not only be able to work and collaborate with others but also work on your own solo projects and retrieve the code of any project from any computer. So cool  =) , isn't it?
 
-<br />
-<br />
 <hr>
-<br />
-<br />
 
 ## II. Install Git on your computer <a name="git"></a>
 - [ ] Download Git on your computer <https://git-scm.com/downloads>.
 - [ ] Open a terminal (on VS Code or from your computer).
 /!\ You don't need to be in any special directory to write the following commands (1. Set up user information). Thanks to the keyword **global**, the configuration will be applied "globally" in your computer.
 
-<br />
 <hr>
-<br />
 
 ## III. Main commands <a name="main-commands"></a>
 
@@ -178,13 +171,20 @@ There are some great content on Internet on how to write concise commits but I w
 
 Something I didn't know is that you can do many commits the same day and push everything to GitHub at the end of the day. To do so, you will always follow the 2 steps above and type the following command.
 
-##### STEP 3: 
+##### STEP 3: "paste"/push your work on GitHub
 
-<br />
-<br />
+    - /!\ Replace only the value between the double quotes.
+
+```
+git push origin master
+```
+or
+```
+git push origin nameOfYourLocalBranch
+```
+
+
 <hr>
-<br />
-<br />
 
 ## IV. Useful commands <a name="useful-commands"></a>
 
