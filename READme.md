@@ -13,10 +13,9 @@ To better understand how to use GitHub, let's imagine that we see **2 trees**:
 -----------------|-----------------
 on your computer |  on your GitHub
 
-First Header  | Second Header
+Tree 1  | Tree 2
 ------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+on your computer  | on your GitHub
 
 You can work on your computer (Tree 1), your code will be "locally" changed. Nobody will be able to see your work... except you because your files are saved on your computer.
 
