@@ -13,14 +13,17 @@ To better understand how to use GitHub, let's imagine that we see **2 trees**:
 -----------------|-----------------
 on your computer |  on your GitHub
 
-You can work on your computer (Tree 1), your code will be "locally" changed. No one else would be able to see your work... except you because your files are saved on your computer.
+You can work on your computer (Tree 1), your code will be "locally" changed. Nobody will be able to see your work... except you because your files are saved on your computer.
 
 Now, let's imagine that you are working on a great app and that you want to share your code with some friends. How would you do that? Send your project via WeTransfer? Send it in an e-mail? Oh God, no no no nooooooo!!! You will use GitHub!
 
 What you will need to do is **to send a copy of your code from your computer (Tree 1) to GitHub (Tree 2)**.
 So, I hope it's pretty clear for you now.
 
-But why __A TREE__ as an analogy? Simply because you can create __BRANCHES__ to work on, both on your computer (Tree 1) and on GitHub (Tree 2). A branch is a copy of your project on which you will work on a specific functionality. 
+But why _A TREE_ as an analogy? Simply because you can create _BRANCHES_ to work on, both on your computer (Tree 1) and on GitHub (Tree 2). A branch is a copy of your project on which you will work on a specific functionality. 
+
+
+With GitHub, you will not only be able to work with others, share your code and get theirs, but also save all your projects and retrieve them on from any computer. So cool, isn't it?
 
 
 
@@ -36,17 +39,28 @@ But why __A TREE__ as an analogy? Simply because you can create __BRANCHES__ to 
 ### Set up your name
 **git config --global user.name** "_yourFirstName yourLastName_"
 
+/!\ Replace only the values _yourFirstName yourLastName_ and keep the double quotes!
+
 ### Set up your email address
 **git config --global user.email** "_yourEmailAddress_"
 
-# You can check the set up with:
+/!\ Replace only the value _yourEmailAddress_ and keep the double quotes!
+
+### You can check the set up with:
 **git config --list**
 
-- [ ] Go inside your project with:
-**cd** _nameOfYourDirectory_.
+2. Initialize your project
+### Go inside your project with:
+**cd** _nameOfYourDirectory_
 
-# Initialize Git in your project
+### Initialize Git in your project
 **git init**
+
+Have a look in your project, a hidden files named _.git._ will appear.
+If you don't see it, it is probably because you need to "show" them.
+* You are a Mac user? Open your Finder and press simultaneously: Command + Shift + . (period) 
+* You are PC user? 
+
 
 
 
