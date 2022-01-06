@@ -14,10 +14,12 @@ So I will share with you the very basics of Git and GitHub and will explain you 
 I. [Description](#desc)<br />
 II. [Install Git on your computer](#git)<br />
 III. [Main commands](#main-commands)<br />
-    1. [Set up the user information](#title1)<br />
-    2. [Initialize your project](#title2)<br />
-    3. [Start saving your code and your changes](#title3)<br />
-IV. [Useful commands](#useful-commands)<br />
+  1. [Set up the user information](#title1)<br />
+  2. [Initialize your project](#title2)<br />
+  3. [Start saving your code and your changes](#title3)<br />
+   3.1. [Working on a branch](#title3.1)<br />
+   3.2. [Start saving your work on GitHub](#title3.2)<br />
+IV. [VERY Useful commands](#useful-commands)<br />
 
 <hr>
 
@@ -140,28 +142,28 @@ Yay! You can start working on your branch! Then,
 #### 3.2. Start saving your work on GitHub <a name="title3.2"></a>
 
 What you will do now is "copy" and "paste" your code in the hidden file _.git_.
-There are **ALWAYS** 2 steps that go together :
+There are **ALWAYS** 2 steps that go together:
 
 ##### STEP 1: either "copy" ALL your changes...
+
 ```
 git add .
 ```
 
-or
+or (these 2 commands do the same))
 
 ```
 git add *
 ```
-These 2 commands do the same. We can imagine that it takes a picture of your project as it is.
 
 ##### STEP 1: ... or "copy" only ONE file
-    - /!\ Replace only the value _nameOfTheFile_.
+- /!\ Replace only the value _nameOfTheFile_.
 ```
 git add nameOfTheFile
 ```
 
 ##### STEP 2: "paste" your changes
-    - /!\ Replace only the value between the double quotes.
+- /!\ Replace only the value between the double quotes.
 ```
 git commit -m "description of your commit"
 ```
@@ -169,7 +171,7 @@ This command will "paste" the file.s with your work in the hidden file _.git_.
 
 There are some great content on Internet on how to write concise commits but I would say that it should be short and you should describe the main changes that you have done (ex.: "_CSS button formatted_").
 
-Something I didn't know is that you can do many commits the same day and push everything to GitHub at the end of the day. To do so, you will always follow the 2 steps above and type the following command.
+Something I didn't know is that you can do many commits the same day and do ONLY ONE push (see Step 3) at the end of the day. To do so, you will always follow the 2 steps above and type the following command.
 
 ##### STEP 3: "paste"/push your work on GitHub
 
@@ -186,7 +188,7 @@ git push origin nameOfYourLocalBranch
 
 <hr>
 
-## IV. Useful commands <a name="useful-commands"></a>
+## IV. VERY Useful commands <a name="useful-commands"></a>
 
 
 ### How to remove a GitHub link from my project?
