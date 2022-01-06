@@ -10,14 +10,19 @@ So I will share with you the very basics of Git and GitHub and will explain you 
 
 
 ## Table of contents
-I. [Description](#desc)  
-II. [Install Git on your computer](#git)  
-III. [Main commands](#main-commands)  
-    1. [Set up the user information](#title1)  
-    2. [Initialize your project](#title2)  
-    3. [Start saving your code and your changes](#title3)  
-IV. [Useful commands](#useful-commands)  
+I. [Description](#desc)<br />
+II. [Install Git on your computer](#git)<br />
+III. [Main commands](#main-commands)<br />
+    1. [Set up the user information](#title1)<br />
+    2. [Initialize your project](#title2)<br />
+    3. [Start saving your code and your changes](#title3)<br />
+IV. [Useful commands](#useful-commands)<br />
 
+<br />
+<br />
+<hr>
+<br />
+<br />
 
 ## I. Description <a name="desc"></a>
 To better understand the use of Git & GitHub, let's imagine **2 trees**:
@@ -38,12 +43,22 @@ But why _A TREE_ as an analogy? Simply because you can create _A BRANCH_ to work
 GitHub will help you save all your codes, share it with your team mates and make sure everyone is on the same page and has the same code.
 You will not only be able to work and collaborate with others but also work on your own solo projects and retrieve the code of any project from any computer. So cool  =) , isn't it?
 
+<br />
+<br />
+<hr>
+<br />
+<br />
 
 ## II. Install Git on your computer <a name="git"></a>
 - [ ] Download Git on your computer <https://git-scm.com/downloads>.
 - [ ] Open a terminal (on VS Code or from your computer).
 /!\ You don't need to be in any special directory to write the following commands (1. Set up user information). Thanks to the keyword **global**, the configuration will be applied "globally" in your computer.
 
+<br />
+<br />
+<hr>
+<br />
+<br />
 
 ## III. Main commands <a name="main-commands"></a>
 
@@ -129,13 +144,16 @@ git branch nameOfYourBranch
 ```
 git checkout nameOfYourBranch
 ```
-What will happen here? It will make a copy of your project in this new branch. All the changes in your code will only affect this "copy"/version of the project.
+What will happen here? It will make a copy of your project in this new branch. All the changes in your code will only affect this "copy"/"version" of the project.
+
+Yay! You can start working on your branch! Then, 
 
 #### 3.2. Start saving your work on GitHub <a name="title3.2"></a>
 
 What you will do now is "copy" and "paste" your code in the hidden file _.git_.
 There are **ALWAYS** 2 steps that go together :
-- STEP 1: either "copy" ALL your changes...
+
+##### STEP 1: either "copy" ALL your changes...
 ```
 git add .
 ```
@@ -147,13 +165,13 @@ git add *
 ```
 These 2 commands do the same. We can imagine that it takes a picture of your project as it is.
 
-- STEP 1: ... or "copy" only ONE file
+##### STEP 1: ... or "copy" only ONE file
     - /!\ Replace only the value _nameOfTheFile_.
 ```
 git add nameOfTheFile
 ```
 
-- STEP 2: "paste" your changes
+##### STEP 2: "paste" your changes
     - /!\ Replace only the value between the double quotes.
 ```
 git commit -m "description of your commit"
@@ -164,32 +182,36 @@ There are some great content on Internet on how to write concise commits but I w
 
 Something I didn't know is that you can do many commits the same day and push everything to GitHub at the end of the day. To do so, you will always follow the 2 steps above and type the following command.
 
-- STEP 3: 
+##### STEP 3: 
 
-
+<br />
+<br />
+<hr>
+<br />
+<br />
 
 ## IV. Useful commands <a name="useful-commands"></a>
 
 
-a. How to remove a GitHub link from my project?
-    - First, type this command to know the name you gave when you made the link with your GitHub repository (generally "origin").
+### How to remove a GitHub link from my project?
+- First, type this command to know the name you gave when you made the link with your GitHub repository (generally "origin").
 ```
 git remote
 ```
 
-    - Then, type the following command and replace the word "origin" if another word came out after the command above.
+- Then, type the following command and replace the word ```origin``` if another word came out after the command above.
 
 ```
 git remote rm origin
 ```
 
-b. How to delete a branch locally (on your computer)?
+### How to delete a branch locally (on your computer)?
     - /!\ Replace only the value _nameOfYourBranch_.  
 ```
 git branch -d nameOfYourBranch
 ```
 
-c. How to switch from a branch to another?
+### How to switch from a branch to another?
     - /!\ Replace only the value _nameOfYourBranch_.  
 ```
 git checkout nameOfYourBranch
