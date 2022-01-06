@@ -58,7 +58,7 @@ You will not only be able to work and collaborate with others but also work on y
 
 ### 1. Set up the user information <a name="title1"></a>
 
-So you are in your terminal, write the following commands.
+So, you are in your terminal, write the following commands.
 - Set up your name:
     - /!\ Replace only the values _yourFirstName yourLastName_ and keep the double quotes!
 ```
@@ -189,7 +189,7 @@ git push origin master
 ```
 Have a look on your repository "Code" section and your commit should appear! *You can then keep on working calmly and peacefully with GitHub...*
 
-If for some weird reasons, an error message on your terminal appears and says that you are "behind some commits"... do not panic!!! It might be because your local code (despite the last changes you made) is different from the code on your repository. So you will need to get/pull the code first (= retrieve the last version of the code on GitHub)):
+If for some weird reasons, an error message on your terminal appears and says that you are "behind some commits"... do not panic!!! It might be because your local code (despite the last changes you made) is different from the code on your repository. So, you will need to get/pull the code first (= retrieve the last version of the code on GitHub)):
 
 ```
 git pull origin master
@@ -210,7 +210,7 @@ You might need to push your code on a specific branch on GitHub (created by some
 git push origin nameOfTheBranchOnGitHub
 ```
 
-If an error message on your terminal appears and says that you are "behind some commits"... do not panic!!! It might be because some of your colleagues pushed their codes, meaning that your code is different from theirs. So you will need to get/pull their code first (= retrieve the last version of the code on GitHub):
+If an error message on your terminal appears and says that you are "behind some commits"... do not panic!!! It might be because some of your colleagues pushed their codes, meaning that your code is different from theirs. So, you will need to get/pull their code first (= retrieve the last version of the code on GitHub):
 
 ```
 git pull origin master
@@ -258,9 +258,9 @@ _(WORK IN PROGRESS)_
 
 ## IV. VERY Useful commands <a name="useful-commands"></a>
 
-### How to remove a GitHub link from my project?
+_(WORK IN PROGRESS)_
 
-(I am still working on this section.)
+### How to remove a GitHub link from my project?
 
 - First, type this command to know the name you gave when you made the link with your GitHub repository (generally "origin").
 ```
