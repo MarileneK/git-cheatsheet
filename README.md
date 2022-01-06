@@ -19,9 +19,7 @@ III. [Main commands](#main-commands)<br />
 IV. [Useful commands](#useful-commands)<br />
 
 <br />
-<br />
 <hr>
-<br />
 <br />
 
 ## I. Description <a name="desc"></a>
@@ -55,9 +53,7 @@ You will not only be able to work and collaborate with others but also work on y
 /!\ You don't need to be in any special directory to write the following commands (1. Set up user information). Thanks to the keyword **global**, the configuration will be applied "globally" in your computer.
 
 <br />
-<br />
 <hr>
-<br />
 <br />
 
 ## III. Main commands <a name="main-commands"></a>
