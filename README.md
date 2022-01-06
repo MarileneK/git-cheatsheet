@@ -43,12 +43,11 @@ With GitHub, you will not only be able to work with others, share your code and 
 git config --global user.name** "_yourFirstName yourLastName_"
 ```
 
-
-Set up your email address
+- Set up your email address
+/!\ Replace only the value _yourEmailAddress_ and keep the double quotes!
 ```
 git config --global user.email** "_yourEmailAddress_"
 ```
-/!\ Replace only the value _yourEmailAddress_ and keep the double quotes!
 
 
 You can check the set up with:
