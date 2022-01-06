@@ -10,13 +10,13 @@ So I will share with you the very basics of Git and GitHub and will explain you 
 
 
 ## Table of contents
-I. [Description](#desc)<br />
-II. [Install Git on your computer](#git)<br />
-III. [Main commands](#main-commands)<br />
-    1. [Set up the user information](#title1)<br />
-    2. [Initialize your project](#title2)<br />
-    3. [Start saving your code and your changes](#title3)<br />
-IV. [Useful commands](#useful-commands)<br />
+I. [Description](#desc)  
+II. [Install Git on your computer](#git)  
+III. [Main commands](#main-commands)  
+    1. [Set up the user information](#title1)  
+    2. [Initialize your project](#title2)  
+    3. [Start saving your code and your changes](#title3)  
+IV. [Useful commands](#useful-commands)  
 
 
 ## I. Description <a name="desc"></a>
