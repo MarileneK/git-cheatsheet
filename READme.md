@@ -37,7 +37,9 @@ With GitHub, you will not only be able to work with others, share your code and 
 
 1. Set up user information
 ### Set up your name
-**git config --global user.name** "_yourFirstName yourLastName_"
+```
+git config --global user.name** "_yourFirstName yourLastName_"
+```
 
 /!\ Replace only the values _yourFirstName yourLastName_ and keep the double quotes!
 
