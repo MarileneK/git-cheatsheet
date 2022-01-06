@@ -13,6 +13,11 @@ To better understand how to use GitHub, let's imagine that we see **2 trees**:
 -----------------|-----------------
 on your computer |  on your GitHub
 
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+
 You can work on your computer (Tree 1), your code will be "locally" changed. Nobody will be able to see your work... except you because your files are saved on your computer.
 
 Now, let's imagine that you are working on a great app and that you want to share your code with some friends. How would you do that? Send your project via WeTransfer? Send it in an e-mail? Oh God, no no no nooooooo!!! You will use GitHub!
