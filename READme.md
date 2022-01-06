@@ -9,6 +9,8 @@ But as soon as you understand how GitHub works, you will see the power it!
 ## Description
 To better understand how to use GitHub, let's imagine that we see **2 trees**:
 
+Test   |
+
 Tree 1  | Tree 2
 ------------- | -------------
 on your computer  | on your GitHub
