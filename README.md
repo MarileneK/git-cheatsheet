@@ -5,8 +5,10 @@ Using Git and GitHub for the first time can be **very very disturbing and overwh
 I still remember sweating like hell when I first had to use GitHub... I was so scared to "break" something, lose my code, erase my colleagues' work... It was not funny at all.
 But as soon as I started to understand how GitHub worked, I could see the power it!
 
-So I will share with you the very basics of Git and GitHub and will explain you how to use it. Hope this will be useful!
+So I will share with you the very basics of Git and GitHub and will explain you how to use it. Hope this will be useful and helpful!
 (I think it is pretty much the same with GitLab but I am not using it for now.)
+
+*P.S.: this repo is an ongoing process and I will do my best update it.*
 
 <hr>
 
@@ -143,7 +145,7 @@ Yay! You can start working on your branch! Then,
 #### 3.2. Start saving your work on GitHub <a name="title3.2"></a>
 
 What you will do now is "copy" and "paste" your code in the hidden file _.git_.
-There are **ALWAYS** 2 steps that go together:
+You will **ALWAYS** have to follow those 2 steps, they are like *TWINS*:
 
 ##### STEP 1: either "copy" ALL your changes...
 
@@ -176,23 +178,90 @@ Something I didn't know is that you can do many commits the same day and do ONLY
 
 ##### STEP 3: "paste"/push your work on GitHub
 
-    - /!\ Replace only the value between the double quotes.
+Now, you will push your code to your repository on GitHub. You will need to decide where you want to push/save it: to your *master branch on GitHub* (the KING ONE) or *to a new branch on GitHub that you will create* or *to an existing branch on GitHub*?
 
+ATTENTION ATTENTION ATTENTION: if you've just created a branch locally on your computer (Tree 1), it won't be reflected in your GitHub repository (Tree 2).
+
+###### Case 1: push to master
+If you want to push/paste your code to the master branch of your repository GitHub (Tree 2), you will do so:
 ```
 git push origin master
 ```
-or
+Have a look on your repository "Code" section and your commit should appear! *You can then keep on working calmly and peacefully with GitHub...*
+
+If for some weird reasons, an error message on your terminal appears and says that you are "behind some commits"... do not panic!!! It might be because your local code (despite the last changes you made) is different from the code on your repository. So you will need to get/pull the code first (= retrieve the last version of the code on GitHub)):
+
+```
+git pull origin master
+```
+
+Then, re-do the "git push" to the master just above.
+
+
+###### Case 2: push to a new branch on GitHub (Tree 2)
+If you want to push/paste your code (Tree 1) to a new branch on your repository GitHub (Tree 2), you will push NOT TO "MASTER" BUT to a new branch on GitHub (Tree 2), like this:
+    - /!\ Use the same name as your local branch, this will make your life easier:
 ```
 git push origin nameOfYourLocalBranch
 ```
+
+You might need to push your code on a specific branch on GitHub (created by someone else for instance). You will then need to adjust the name of the branch in your command:
+```
+git push origin nameOfTheBranchOnGitHub
+```
+
+If an error message on your terminal appears and says that you are "behind some commits"... do not panic!!! It might be because some of your colleagues pushed their codes, meaning that your code is different from theirs. So you will need to get/pull their code first (= retrieve the last version of the code on GitHub):
+
+```
+git pull origin master
+```
+
+Then, re-do the git "push". Then, you should be fine!
+
+For case 2, your fresh new code will only be on your new branch on GitHub. If you or your team mates are happy with your code, you will need to *merge* it to the main code. You have 2 options.
+
+###### Option 1: merge locally your branch
+
+In your terminal, switch back to the master branch (Tree 1).
+```
+git checkout master
+```
+
+Then, merge the branch you were working on with the master:
+```
+git checkout nameOfYourBranch
+```
+And it's done!
+
+If necessary, you can delete your branch by doing so:
+```
+git delete -d nameOfYourBranch
+```
+
+... and create a new branch: 
+```
+git branch nameOfMyNewBranch
+```
+
+And don't forget to go on your new branch to work on another feature!
+```
+git checkout nameOfMyNewBranch
+```
+
+###### Option 2: merge your branch on GitHub
+
+Go on the repository on GitHub.
+_(WORK IN PROGRESS)_
 
 
 <hr>
 
 ## IV. VERY Useful commands <a name="useful-commands"></a>
 
-
 ### How to remove a GitHub link from my project?
+
+(I am still working on this section.)
+
 - First, type this command to know the name you gave when you made the link with your GitHub repository (generally "origin").
 ```
 git remote
@@ -205,13 +274,13 @@ git remote rm origin
 ```
 
 ### How to delete a branch locally (on your computer)?
-    - /!\ Replace only the value _nameOfYourBranch_.  
+- /!\ Replace only the value _nameOfYourBranch_.  
 ```
 git branch -d nameOfYourBranch
 ```
 
-### How to switch from a branch to another?
-    - /!\ Replace only the value _nameOfYourBranch_.  
+### How to switch branches?
+- /!\ Replace only the value _nameOfYourBranch_.  
 ```
 git checkout nameOfYourBranch
 ```
