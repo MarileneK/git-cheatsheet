@@ -9,9 +9,10 @@ But as soon as you understand how GitHub works, you will see the power it!
 ## Description
 To better understand how to use GitHub, let's imagine that we see **2 trees**:
 
-    Tree 1        |       Tree 2
------------------ | -----------------
-on your computer  |   on your GitHub
+Tree 1  | Tree 2
+------------- | -------------
+on your computer  | on your GitHub
+
 
 You can work on your computer (Tree 1), your code will be "locally" changed. Nobody will be able to see your work... except you because your files are saved on your computer.
 
@@ -28,7 +29,7 @@ With GitHub, you will not only be able to work with others, share your code and 
 
 
 ## Set Up
-- [ ] Download Git on your computer (https://git-scm.com/downloads).
+- [ ] Download Git on your computer <https://git-scm.com/downloads>.
 - [ ] Open a terminal (on VS Code or from your computer).
 /!\ You don't need to be in any special directory to write the following commands (1. Set up user information). Thanks to the keyword **global**, the configuration will be applied "globally" in your computer.
 
@@ -36,35 +37,44 @@ With GitHub, you will not only be able to work with others, share your code and 
 ## Main commands
 
 ### 1. Set up user information
-- Set up your name
-**git config --global user.name** "_yourFirstName yourLastName_"
 
+Set up your name
+```
+git config --global user.name** "_yourFirstName yourLastName_"
+```
 /!\ Replace only the values _yourFirstName yourLastName_ and keep the double quotes!
 
-- Set up your email address
-**git config --global user.email** "_yourEmailAddress_"
 
+Set up your email address
+```
+git config --global user.email** "_yourEmailAddress_"
+```
 /!\ Replace only the value _yourEmailAddress_ and keep the double quotes!
 
-- You can check the set up with:
-**git config --list**
+
+You can check the set up with:
+```
+git config --list
+```
 
 ### 2. Initialize your project
-- Go inside your project with:
-**cd** _nameOfYourDirectory_
 
-- Initialize Git in your project
-**git init**
+Go inside your project with:
+```
+cd _nameOfYourDirectory_
+```
+
+
+Initialize Git in your project
+```
+git init
+```
 
 Have a look in your project, a hidden files named _.git._ will appear.
-If you don't see it, it is probably because you need to "show" them.
+If you don't see it, make sure you did the command in the right directory and make sure hidden files are shown:
 * You are a Mac user? Open your Finder and press simultaneously: Command + Shift + . (period) 
 * You are PC user? 
 
-
-
-
-#
 
 
 
