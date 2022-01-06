@@ -140,7 +140,7 @@ git checkout nameOfYourBranch
 ```
 What will happen here? It will make a copy of your project in this new branch. All the changes in your code will only affect this "copy"/"version" of the project.
 
-Yay! You can start working on your branch! Then, 
+Yay! You can start working on your branch! Then, as soon as you are done with coding a feature, you can go the next part (3.2.).
 
 #### 3.2. Start saving your work on GitHub <a name="title3.2"></a>
 
