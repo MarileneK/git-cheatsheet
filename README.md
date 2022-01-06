@@ -3,7 +3,7 @@
 ## Aim of this Repository
 Using Git and GitHub for the first time can be **very very disturbing and overwhelming**.
 I still remember sweating like hell when I first had to use GitHub... I was so scared to "break" something, lose my code, erase my colleagues' work... It was not funny at all.
-But as soon as I started to understand how GitHub worked, I could see the power it!
+But as soon as I started to understand how GitHub worked, I could see the power of it!
 
 So I will share with you the very basics of Git and GitHub and will explain you how to use it. Hope this will be useful and helpful!
 (I think it is pretty much the same with GitLab but I am not using it for now.)
@@ -40,10 +40,10 @@ Now, let's imagine that you are willing to work on a great app with some friends
 What you will need to do is **to send a copy of your code from your computer (Tree 1) to GitHub (Tree 2)**.
 So, I hope what I am writing is pretty clear for you.
 
-But why _A TREE_ as an analogy? Simply because you can create _A BRANCH_ to work on, both on your computer (Tree 1) and on GitHub (Tree 2). A branch is **a copy of your project on which you will work on a specific functionality**. While you will be focused on developing a new functionality, another team member will also be able the same on his side.
+But why _A TREE_ as an analogy? Simply because you can create _A BRANCH_ to work on, both on your computer (Tree 1) and on GitHub (Tree 2). A branch is **a copy of your project on which you will work on a specific functionality**. While you will be focused on developing a new functionality, another team member will also be able on another functionality on his computer.
 
-GitHub will help you save all your codes, share it with your team mates and make sure everyone is on the same page and has the same code.
-You will not only be able to work and collaborate with others but also work on your own solo projects and retrieve the code of any project from any computer. So cool  =) , isn't it?
+GitHub will help you save all your codes, enable you to share it with your team mates and make sure everyone is on the same page and has the same code as you.
+You will not only be able to work and collaborate with others, but also work on your own solo projects and retrieve the code of any project from any computer. So cool  =) , isn't it?
 
 <hr>
 
@@ -125,8 +125,8 @@ You are now all set to start using GitHub!
 ### 3. Start saving your code and your changes <a name="title3"></a>
 
 #### 3.1. Working on a branch <a name="title3.1"></a>
-- Create a branch (OPTIONAL IF YOU ARE WORKING ALONE ON YOUR PROJECT. Otherwise, go directly [here](#title3.2).)
-If you are working alone on your projects, you don't necessarily need to create a branch (= a copy of your project). But if you are working working with other people, that is essential!
+- Create a branch (OPTIONAL IF YOU ARE WORKING ALONE ON YOUR PROJECT. Otherwise, go directly [here](#title3.2).)<br />
+If you are working alone on your project, you don't necessarily need to create a branch (= a copy of your project). But if you are working working with other people, that is essential! You will then do the following command:
     - /!\ Replace only the value _nameOfYourBranch_ and keep the double quotes!
     - Pick a meaningful name like _logInlogOut_.
 ```
@@ -140,7 +140,9 @@ git checkout nameOfYourBranch
 ```
 What will happen here? It will make a copy of your project in this new branch. All the changes in your code will only affect this "copy"/"version" of the project.
 
-Yay! You can start working on your branch! Then, as soon as you are done with coding a feature, you can go the next part (3.2.).
+Yay! You can now start working on your branch! Then, as soon as you are done with coding a feature, you can go the next part (3.2.).
+
+ATTENTION ATTENTION ATTENTION: if you've just created a branch locally on your computer (Tree 1), it won't be reflected in your GitHub repository (Tree 2). Vice versa: creating a branch on GitHub (Tree 2) won't be reflected locally on your computer (Tree 1)! Your computer and GitHub are 2 separate trees.
 
 #### 3.2. Start saving your work on GitHub <a name="title3.2"></a>
 
@@ -172,30 +174,31 @@ git commit -m "description of your commit"
 ```
 This command will "paste" the file.s with your work in the hidden file _.git_.
 
-There are some great content on Internet on how to write concise commits but I would say that it should be short and you should describe the main changes that you have done (ex.: "_CSS button formatted_").
+There are great content on Internet on how to write concise commits but I would say that it should be short and you should describe the main changes that you have done (ex.: "_CSS button formatted_").
 
-Something I didn't know is that you can do many commits the same day and do ONLY ONE push (see Step 3) at the end of the day. To do so, you will always follow the 2 steps above and type the following command.
+Something I didn't know is that you can do as many commits as you wish the same day and do ONLY ONE push (see Step 3) at the end of the day. To do so, you will always follow the 2 steps above and type the following command (Step 3).
 
 ##### STEP 3: "paste"/push your work on GitHub
 
-Now, you will push your code to your repository on GitHub. You will need to decide where you want to push/save it: to your *master branch on GitHub* (the KING ONE) or *to a new branch on GitHub that you will create* or *to an existing branch on GitHub*?
+Now, you will push your code to your repository on GitHub. It means that you will save the latest version of your code on GitHub (Tree 2).<br />
+You will need to decide where you want to push/save it: to your *master branch on GitHub* (the KING ONE) or *to a new branch on GitHub that you will create* or *to an existing branch on GitHub*?
 
-ATTENTION ATTENTION ATTENTION: if you've just created a branch locally on your computer (Tree 1), it won't be reflected in your GitHub repository (Tree 2).
+ATTENTION ATTENTION ATTENTION: if you've just created a branch locally on your computer (Tree 1), it won't be reflected in your GitHub repository (Tree 2). Vice versa: creating a branch on GitHub (Tree 2) won't be reflected locally on your computer (Tree 1)! Your computer and GitHub are 2 separate trees.
 
 ###### Case 1: push to master
 If you want to push/paste your code to the master branch of your repository GitHub (Tree 2), you will do so:
 ```
 git push origin master
 ```
-Have a look on your repository "Code" section and your commit should appear! *You can then keep on working calmly and peacefully with GitHub...*
+Have a look at your repository on GitHub in "Code" section and your commit should appear! *You can then keep on working calmly and peacefully with GitHub...*
 
-If for some weird reasons, an error message on your terminal appears and says that you are "behind some commits"... do not panic!!! It might be because your local code (despite the last changes you made) is different from the code on your repository. So, you will need to get/pull the code first (= retrieve the last version of the code on GitHub)):
+If for some mysterious reasons, an error message appears on your terminal and tells you that you are "behind some commits"... *DO NOT PANIC!!!* It might be because your local code (before the last changes you made) is different from the code on your repository. So, you will need to get/pull the code first (= retrieve the last version of the code on GitHub)) with this command:
 
 ```
 git pull origin master
 ```
 
-Then, re-do the "git push" to the master just above.
+Then, re-do the "git push" to the master like shown above.
 
 
 ###### Case 2: push to a new branch on GitHub (Tree 2)
@@ -210,15 +213,19 @@ You might need to push your code on a specific branch on GitHub (created by some
 git push origin nameOfTheBranchOnGitHub
 ```
 
-If an error message on your terminal appears and says that you are "behind some commits"... do not panic!!! It might be because some of your colleagues pushed their codes, meaning that your code is different from theirs. So, you will need to get/pull their code first (= retrieve the last version of the code on GitHub):
+If an error message appears on your terminal and tells you that you are "behind some commits"... *DO NOT PANIC!!!* It might be because some of your colleagues pushed their codes since you last "pull request", meaning that your code is different from theirs. So, you will need to get/pull their code first (= retrieve the last version of the code on GitHub) with this command:
 
 ```
 git pull origin master
 ```
+or (if you need to retrieve the code from another branch on GitHub, replace the _nameOfTheBranch_)
+```
+git pull origin nameOfTheBranch
+```
 
 Then, re-do the git "push". Then, you should be fine!
 
-For case 2, your fresh new code will only be on your new branch on GitHub. If you or your team mates are happy with your code, you will need to *merge* it to the main code. You have 2 options.
+The latest version of your code is now on GitHub. If you pushed your work on a branch on GitHub and if you or your team mates are happy with your code, you will need to *merge* it to the main code. You have 2 options.
 
 ###### Option 1: merge locally your branch
 
