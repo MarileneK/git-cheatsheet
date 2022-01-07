@@ -90,8 +90,9 @@ git config --list
     - When the repository is created, GitHub will display some steps to follow (that I will explain now). So don't close that window!
 
 - Go inside the project you are working on with:
+    - /!\ Replace only the value _nameOfYourDirectory_.
 ```
-_cd_ nameOfYourDirectory
+cd nameOfYourDirectory
 ```
 cd means _change directory_.
 
