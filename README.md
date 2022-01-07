@@ -5,10 +5,10 @@ Using Git and GitHub for the first time can be **very very disturbing and overwh
 I still remember sweating like hell when I first had to use GitHub... I was so scared to "break" something, lose my code, erase my colleagues' work... It was not funny at all.
 But as soon as I started to understand how GitHub worked, I could see the power of it!
 
-So I will share with you the very basics of Git and GitHub and will explain you how to use it. Hope this will be useful and helpful!
+If you are a newbie and you want to start using Git and GitHub, I will share with you the very basics and will explain you how to use it. Hope this will be useful and helpful!
 (I think it is pretty much the same with GitLab but I am not using it for now.)
 
-*P.S.: this repo is an ongoing process and I will do my best update it.*
+*P.S.: this repo is an ongoing process and I will do my best to update it.*
 
 <hr>
 
